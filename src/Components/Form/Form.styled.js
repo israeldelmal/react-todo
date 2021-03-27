@@ -1,4 +1,6 @@
-.form {
+import styled from 'styled-components'
+
+export const FormStyled = styled.form`
     background-color: #fff;
     width: 100%;
     display: flex;
@@ -6,4 +8,4 @@
     justify-content: center;
     margin-bottom: 16px;
     padding: 16px;
-}
+`

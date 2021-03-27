@@ -1,15 +1,18 @@
 import React from 'react';
-import './Todo.scss';
+import './Todo.styled.js';
 import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
+import { TodoStyled } from './Todo.styled'
 
-export const Todo = () => {
+const Todo = () => {
     return (
-        <li className="todo">
+        <TodoStyled>
             <span>Todo name</span>
             <IconButton aria-label="delete" size="small">
                 <DeleteIcon fontSize="small"/>
             </IconButton>
-        </li>
+        </TodoStyled>
     )
 }
+
+export default Todo

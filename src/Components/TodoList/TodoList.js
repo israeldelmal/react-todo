@@ -1,16 +1,18 @@
 import React from 'react'
-import './TodoList.scss'
-import { Todo } from '../Todo/Todo'
+import { TodoListStyled } from './TodoList.styled'
+import Todo from '../Todo/Todo'
 
-export const TodoList = () => {
+const TodoList = () => {
     return (
-        <ul className="todo-list">
+        <TodoListStyled>
             <Todo/>
             <Todo/>
             <Todo/>
             <Todo/>
             <Todo/>
             <Todo/>
-        </ul>
+        </TodoListStyled>
     )
 }
+
+export default TodoList

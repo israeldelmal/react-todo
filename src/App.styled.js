@@ -1,9 +1,11 @@
-.main {
+import styled from 'styled-components'
+
+export const Main = styled.main`
     max-width: 500px;
     margin: auto;
-}
+`;
 
-.header {
+export const Header = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,9 +19,9 @@
         width: auto;
         color: #fff;
     }
-}
+`;
 
-.container {
+export const Container = styled.section`
     width: 100%;
     padding: 16px;
-}
+`;

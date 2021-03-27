@@ -1,4 +1,6 @@
-.todo {
+import styled from 'styled-components'
+
+export const TodoStyled = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
@@ -9,4 +11,7 @@
     &:last-of-type {
         margin-bottom: 0;
     }
-}
+    > span {
+        display: inline-block;
+    }
+`

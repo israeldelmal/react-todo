@@ -1,18 +1,18 @@
-import './App.scss';
 import { Form } from './Components/Form/Form'
-import { TodoList } from './Components/TodoList/TodoList';
+import TodoList from './Components/TodoList/TodoList'
+import { Main, Header, Container } from './App.styled'
 
 function App() {
     return (
-        <main className="main">
-            <header className="header">
+        <Main>
+            <Header>
                 <h1>Todo List</h1>
-            </header>
-            <section className="container">
+            </Header>
+            <Container>
                 <Form/>
                 <TodoList/>
-            </section>
-        </main>
+            </Container>
+        </Main>
     );
 }
 
