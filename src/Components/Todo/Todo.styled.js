@@ -15,3 +15,10 @@ export const TodoStyled = styled.div`
         display: inline-block;
     }
 `
+
+export const Buttons = styled.div`
+    display: inline-flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+`
